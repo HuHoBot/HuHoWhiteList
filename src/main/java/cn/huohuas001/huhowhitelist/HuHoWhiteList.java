@@ -25,6 +25,7 @@ public final class HuHoWhiteList extends JavaPlugin implements Listener {
     private static HuHoWhiteList plugin; //插件对象
     private Connection connection;
 
+
     /**
      * 获取插件
      *
