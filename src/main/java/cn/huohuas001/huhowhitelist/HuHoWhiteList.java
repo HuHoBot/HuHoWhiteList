@@ -11,7 +11,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 // 其他第三方
-import cn.huohuas001.huHoBot.Api.BotCustomCommand;
+import cn.huohuas001.huhobot.spigot.api.BotCustomCommand;
 import com.github.Anon8281.universalScheduler.UniversalScheduler;
 import com.github.Anon8281.universalScheduler.scheduling.schedulers.TaskScheduler;
 
@@ -55,7 +55,7 @@ public final class HuHoWhiteList extends JavaPlugin implements Listener {
         }
 
         try {
-            Class.forName("cn.huohuas001.huHoBot.Api.BotCustomCommand");
+            Class.forName("cn.huohuas001.huhobot.spigot.api.BotCustomCommand");
         } catch (ClassNotFoundException e) {
             logger.severe("无法加载 BotCustomCommand 类：" + e.getMessage());
         }

@@ -1,1 +1,1 @@
-初始化项目
+适配HuHoBot Spigot v2.0.1
